@@ -7,15 +7,19 @@
     <link rel="stylesheet" href="nixon.css">
     <title>1972 Presidential Election</title>
 </head>
-<body id="body">
+<body id="body" onload="vote()">
     <h1>1972 Presidential Election</h1>
+    <div id="voteStart">VOTE FOR NIXON</div>
+    <div id="doit">DO IT</div>
     <div id="flexC">
         <div id="Nixon">
-            <p>Richard Nixon</p>
-            <button id="vote">Vote</button>
+            <img src="nixon.jpg" alt="">
+            <p id="name1">Richard Nixon</p>
+            <button onclick="window.location.href='thanks.html'" id="vote">Vote</button>
         </div>
         <div id="McGovern">
-            <p>George McGovern</p>
+            <img src="mcgovern.jpg" alt="">
+            <p id="name2">George McGovern</p>
             <button id="fake">Vote</button>
         </div>
         
